@@ -1,0 +1,7 @@
+{
+    "tasks": [
+        { "id": 1, "text": "Learn React", "day": "Feb 5th art 2:30 PM", "reminder": false },
+        { "id": 2, "text": "Learn NextJS", "day": "Feb 5th art 2:30 PM", "reminder": false },
+        { "id": 3, "text": "Learn Solidity", "day": "Feb 5th art 2:30 PM", "reminder": false }
+    ]
+}

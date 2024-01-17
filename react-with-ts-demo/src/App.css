@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.List {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 50rem;
+  margin: 0rem auto;
+  border: 0.1rem solid rgba(0, 0, 0, 0.233);
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.List-header {
+  display: flex;
+  align-items: center;
+}
+
+.List-header h2 {
+  color: rgb(37, 36, 36)
+}
+
+.List-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+}
+
+.List-note {
+  width: 30%;
+  text-align: left;
+}
+
+.AddToList {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: 5rem auto
+}
+
+.AddToList-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.3rem 0rem
+}
+
+.AddToList-btn {
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #0b5468;
+  font-weight: 700;
+  color: white;
+  border: none
+}
